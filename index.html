@@ -13,8 +13,41 @@
   
   </style>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<!--<body data-spy="scroll" data-target=".navbar" data-offset="50">-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
+  <h1>Scrollspy & Affix Example</h1>
+  <h3>Fixed navbar on scroll</h3>
+  <p>Scroll this page to see how the navbar behaves with data-spy="affix" and data-spy="scrollspy".</p>
+  <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels, and the links in the navbar are automatically updated based on scroll position.</p>
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">SportABC比分查询系统</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#section1">室内一号</a></li>
+          <li><a href="#section2">室内二号</a></li>
+          <li><a href="#section3">室内三号</a></li>
+          <li><a href="#section4">室内四号</a></li>
+          <li><a href="#section5">室内五号</a></li>
+          <li><a href="#section6">室内六号</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav> 
+<!--
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -42,6 +75,7 @@
   </div>
 </nav> 
    
+-->
      <div id="main-content" class="container">
     
 
