@@ -4,72 +4,25 @@ body {
       position: relative; 
 	box-sizing: border-box;
   }
-  #section1 {padding-top:100px;height:500px;}
-
-.kuan {
-	background-color: #F1F5F8;
-	height:150px;
-	border: 1px solid #bae2ff;
-	float: left;
-	
-}
-.gametitle {
-	text-align:center;
-	background-color: #BAE2FF;
-	height: 29px;
-	font-size: 16px;
-	margin: 0;
-}
-.left {
-	width:50%;
-	
-	float: left;
-	
-}
-.middle {
-	width:15%;
-	
-	float: left;
-}
-.right {
-	width:35%;
-	
-	float: left;
-}
-.game {
-	height:28px;
-	
-	
-}
-.win {
-	width:20px;
-	margin-left: 5px;
-	float:left;
-}
-.team {
-	
-	text-align: left;
-	margin-left: 30px;
-	margin-top: 3px;
-}
-.member {
-	
-	text-align: left;
-	margin-left: 30px;
-}
-.line {
-	width:100%;
-	background-color: #E1E1E1;
-	height: 0.5px;
-	position: relative;
-	top:28px;
-}
 
 
 
 /* HOME PAGE */
 
-#menu-tile, #specials-tile, #map-tile {
+	.place {
+		margin-top: 100px;
+		margin-bottom: 100px;
+		clear: left;
+		
+		
+	}
+.place h2{
+		text-align: center;
+		padding-top: 50px;
+		
+	}
+	
+.menu-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -77,31 +30,17 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+.menu-tile:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-#menu-tile {
+.menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
 
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
+
+
 
 /* END HOME PAGE */
 
@@ -176,7 +115,7 @@ body {
   /* Home Page */
 
 
-  #menu-tile, #specials-tile {
+  .menu-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -194,7 +133,7 @@ body {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  .menu-tile {
     width: 350px;
     margin: 0 auto 15px;
   }
