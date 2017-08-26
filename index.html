@@ -16,23 +16,32 @@
 
 <!--<body data-spy="scroll" data-target=".navbar" data-offset="50">-->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
-  <h1>Scrollspy & Affix Example</h1>
-  <h3>Fixed navbar on scroll</h3>
-  <p>Scroll this page to see how the navbar behaves with data-spy="affix" and data-spy="scrollspy".</p>
-  <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels, and the links in the navbar are automatically updated based on scroll position.</p>
+<div class="container-fluid" style="background-color:#E7E7E7; color:black; height:200px;">
+  <h1>SportABC 实时比分系统</h1>
+  
 </div>
 
 <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
   <div class="container-fluid">
     <div class="navbar-header">
+<!--
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">SportABC比分查询系统</a>
+      <a class="navbar-brand" href="#">场地</a>
+-->
     </div>
+    <div class="dropdown pull-left">
+  <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">选择日期
+ <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">2017-08-26</a></li>
+    <li><a href="#">2017-08-27</a></li>
+    <li><a href="#">2017-08-28</a></li>
+  </ul>
+</div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
