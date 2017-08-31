@@ -311,7 +311,7 @@ hr {
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 711px) and (max-width: 1023px) {
 /* — Header —  */
 
 /*— End Header —  */
@@ -332,7 +332,7 @@ hr {
 @media only screen and (max-width: 767px) {}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 710px) {
 #main {
 	width:340px;
 	height: 1000px;
