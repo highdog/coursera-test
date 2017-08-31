@@ -73,8 +73,9 @@ nav h1 {
 }
 #places {
 	width: 100%;
-	height: 30px;
+	height: 32px;
 	background-color: white;
+	
 }
 
 /*— End Header —  */
@@ -98,15 +99,14 @@ body{
 	font-size: 12px;
 	color: #9A9A9A;
 }
-a:link, a:visited { 
-    color: #fff;
+#places a:link, #places a:visited { 
+    color: #088CCB;
     text-decoration: none;
     cursor: auto;
 }
-a:hover, a:active {
+#places a:hover {
 	color: white;
 	background-color: #088CCB;
-	border-radius: 2px;
 }
 
 .place-title {
